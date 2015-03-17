@@ -1,0 +1,6 @@
+E:\csharp-practice\BlogWebApp\BlogWebApp\bin\BlogWebApp.dll.config
+E:\csharp-practice\BlogWebApp\BlogWebApp\bin\BlogWebApp.dll
+E:\csharp-practice\BlogWebApp\BlogWebApp\bin\BlogWebApp.pdb
+E:\csharp-practice\BlogWebApp\BlogWebApp\obj\Debug\BlogWebApp.csprojResolveAssemblyReference.cache
+E:\csharp-practice\BlogWebApp\BlogWebApp\obj\Debug\BlogWebApp.dll
+E:\csharp-practice\BlogWebApp\BlogWebApp\obj\Debug\BlogWebApp.pdb
