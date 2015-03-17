@@ -4,3 +4,9 @@ E:\csharp-practice\BlogWebApp\BlogWebApp\bin\BlogWebApp.pdb
 E:\csharp-practice\BlogWebApp\BlogWebApp\obj\Debug\BlogWebApp.csprojResolveAssemblyReference.cache
 E:\csharp-practice\BlogWebApp\BlogWebApp\obj\Debug\BlogWebApp.dll
 E:\csharp-practice\BlogWebApp\BlogWebApp\obj\Debug\BlogWebApp.pdb
+F:\New Practice\projectBlog\BlogWebApp\BlogWebApp\bin\BlogWebApp.dll.config
+F:\New Practice\projectBlog\BlogWebApp\BlogWebApp\bin\BlogWebApp.dll
+F:\New Practice\projectBlog\BlogWebApp\BlogWebApp\bin\BlogWebApp.pdb
+F:\New Practice\projectBlog\BlogWebApp\BlogWebApp\obj\Debug\BlogWebApp.csprojResolveAssemblyReference.cache
+F:\New Practice\projectBlog\BlogWebApp\BlogWebApp\obj\Debug\BlogWebApp.dll
+F:\New Practice\projectBlog\BlogWebApp\BlogWebApp\obj\Debug\BlogWebApp.pdb

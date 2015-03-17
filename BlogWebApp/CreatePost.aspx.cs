@@ -19,10 +19,10 @@ namespace BlogWebApp
         {
             Article aArticle = new Article();
             aArticle.Title = titleTextBox.Text;
-            aArticle.Body = Server.HtmlEncode(bodyTextBox.Text);
+            aArticle.Body = (bodyTextBox.Text);
             aArticle.Author = authorTextBox.Text;
 
-            string connectionString = @"Server=CHIMERA; Database= blog_db; Integrated Security=true";
+            string connectionString = @"Server=ASUS\SQLEXPRESS; Database= blog_db;User Id=sa; password=1234; Integrated Security=true";
             SqlConnection connection = new SqlConnection(connectionString);
 
             string query = "INSERT INTO t_article VALUES('" + aArticle.Title + "', '" + aArticle.Body + "', '" + aArticle.Author + "')";
