@@ -25,9 +25,14 @@ namespace BlogWebApp
             string connectionString = @"Server=ASUS\SQLEXPRESS; Database= blog_db;User Id=sa; password=1234; Integrated Security=true";
             SqlConnection connection = new SqlConnection(connectionString);
 
-            string query = "INSERT INTO t_article VALUES('" + aArticle.Title + "', '" + aArticle.Body + "', '" + aArticle.Author + "')";
+            // string query = "INSERT INTO t_article VALUES('" + aArticle.Title + "', '" + aArticle.Body + "', '" + aArticle.Author + "')";
+            string query = "INSERT INTO t_article VALUES(@title, @body, @author)";
 
             SqlCommand command = new SqlCommand(query, connection);
+            
+            command.Parameters.AddWithValue("@title", aArticle.Title);
+            command.Parameters.AddWithValue("@body", aArticle.Body);
+            command.Parameters.AddWithValue("@author", aArticle.Author);
 
             connection.Open();
             int rowAffected = command.ExecuteNonQuery();
